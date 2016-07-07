@@ -121,9 +121,21 @@ function tokenize_video(md, options) {
   function tokenize_return(tokens, idx) {
     var videoID = md.utils.escapeHtml(tokens[idx].videoID);
     var service = md.utils.escapeHtml(tokens[idx].service).toLowerCase();
+
+    var blockClassNames = [
+      options.blockName,
+      options.blockName + options.modifierDelimiter + 'service-' + service
+    ];
+    if (options.modifierName) {
+      blockClassNames.push(options.blockName + options.modifierDelimiter + options.modifierName);
+    }
+
+    var itemClassName = options.blockName + options.elementDelimiter + 'item';
+
     return videoID === '' ? '' :
-      '<div class="' + options.blockName + ' ' + options.blockName + '-' + options.modifierName + '"><iframe class="' + options.blockName + '-item" id="' +
-      service + 'player" type="text/html" width="' + (options[service].width) +
+      '<div class="' + blockClassNames.join(' ') + '"><iframe class="' + itemClassName + '" id="' +
+      service + 'player" type="text/html' +
+      '" width="' + (options[service].width) +
       '" height="' + (options[service].height) +
       '" src="' + options.url(service, videoID, options) +
       '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
@@ -133,6 +145,8 @@ function tokenize_video(md, options) {
 }
 
 var defaults = {
+  elementDelimiter: "-",
+  modifierDelimiter: "-",
   blockName: "embed-responsive",
   modifierName: "16by9",
   url: video_url,
