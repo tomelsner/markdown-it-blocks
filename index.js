@@ -164,10 +164,10 @@ function tokenize_video(md, options) {
 var defaults = {
   outputPlayerId: true,
   outputPlayerSize: true,
-  elementDelimiter: "-",
-  modifierDelimiter: "-",
-  blockName: "embed-responsive",
-  modifierName: "16by9",
+  elementDelimiter: '-',
+  modifierDelimiter: '-',
+  blockName: 'embed-responsive',
+  modifierName: '16by9',
 
   url: video_url,
 
