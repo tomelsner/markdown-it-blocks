@@ -122,7 +122,7 @@ function tokenize_video(md, options) {
     var videoID = md.utils.escapeHtml(tokens[idx].videoID);
     var service = md.utils.escapeHtml(tokens[idx].service).toLowerCase();
     return videoID === '' ? '' :
-      '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="' +
+      '<div class="' + options.blockName + ' ' + options.blockName + '-' + options.modifierName + '"><iframe class="' + options.blockName + '-item" id="' +
       service + 'player" type="text/html" width="' + (options[service].width) +
       '" height="' + (options[service].height) +
       '" src="' + options.url(service, videoID, options) +
@@ -133,6 +133,8 @@ function tokenize_video(md, options) {
 }
 
 var defaults = {
+  blockName: "embed-responsive",
+  modifierName: "16by9",
   url: video_url,
   youtube: { width: 640, height: 390 },
   vimeo: { width: 500, height: 281 },
