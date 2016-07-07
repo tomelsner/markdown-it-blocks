@@ -122,6 +122,10 @@ function tokenize_video(md, options) {
     var videoID = md.utils.escapeHtml(tokens[idx].videoID);
     var service = md.utils.escapeHtml(tokens[idx].service).toLowerCase();
 
+    if (videoID === '') {
+      return '';
+    }
+
     var blockClassNames = [
       options.blockName,
       options.blockName + options.modifierDelimiter + 'service-' + service
@@ -132,19 +136,30 @@ function tokenize_video(md, options) {
 
     var itemClassName = options.blockName + options.elementDelimiter + 'item';
 
-    return videoID === '' ? '' :
-      '<div class="' + blockClassNames.join(' ') + '"><iframe class="' + itemClassName + '" id="' +
-      service + 'player" type="text/html' +
-      '" width="' + (options[service].width) +
-      '" height="' + (options[service].height) +
-      '" src="' + options.url(service, videoID, options) +
-      '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
+    var html =
+      '<div class="' + blockClassNames.join(' ') + '">' +
+        '<iframe class="' + itemClassName;
+
+    if (options.outputPlayerId === true) {
+      html += '" id="' + service + 'player';
+    }
+
+    html +=   '" type="text/html' +
+              '" width="' + (options[service].width) +
+              '" height="' + (options[service].height) +
+              '" src="' + options.url(service, videoID, options) +
+              '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>' +
+        '</iframe>' +
+      '</div>';
+
+    return html;
   }
 
   return tokenize_return;
 }
 
 var defaults = {
+  outputPlayerId: true,
   elementDelimiter: "-",
   modifierDelimiter: "-",
   blockName: "embed-responsive",

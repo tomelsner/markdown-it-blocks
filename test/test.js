@@ -20,6 +20,7 @@ describe('markdown-it-video', function() {
       linkify: true,
       typography: true
     }).use(require('../'), {
+      outputPlayerId: false,
       elementDelimiter: '__',
       modifierDelimiter: '--'
     });
