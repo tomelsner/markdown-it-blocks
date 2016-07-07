@@ -144,9 +144,12 @@ function tokenize_video(md, options) {
       html += '" id="' + service + 'player';
     }
 
+    if (options.outputPlayerSize === true) {
+      html += '" width="' + (options[service].width) +
+              '" height="' + (options[service].height);
+    }
+
     html +=   '" type="text/html' +
-              '" width="' + (options[service].width) +
-              '" height="' + (options[service].height) +
               '" src="' + options.url(service, videoID, options) +
               '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>' +
         '</iframe>' +
@@ -160,11 +163,14 @@ function tokenize_video(md, options) {
 
 var defaults = {
   outputPlayerId: true,
+  outputPlayerSize: true,
   elementDelimiter: "-",
   modifierDelimiter: "-",
   blockName: "embed-responsive",
   modifierName: "16by9",
+
   url: video_url,
+
   youtube: { width: 640, height: 390 },
   vimeo: { width: 500, height: 281 },
   vine: { width: 600, height: 600, embed: 'simple' },

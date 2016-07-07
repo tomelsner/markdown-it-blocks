@@ -27,4 +27,15 @@ describe('markdown-it-video', function() {
     generate(path.join(__dirname, 'fixtures/video-bem.txt'), md);
   });
 
+  describe('without size attributes', function() {
+    var md = require('markdown-it')({
+      html: true,
+      linkify: true,
+      typography: true
+    }).use(require('../'), {
+      outputPlayerSize: false
+    });
+    generate(path.join(__dirname, 'fixtures/video-without-size-attributes.txt'), md);
+  });
+
 });
