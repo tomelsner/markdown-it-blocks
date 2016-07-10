@@ -1,25 +1,26 @@
 'use strict';
 
-var path = require('path');
-var generate = require('markdown-it-testgen');
+const path = require('path');
+const generate = require('markdown-it-testgen');
+
 
 describe('markdown-it-video', function() {
 
   describe('with default options', function() {
-    var md = require('markdown-it')({
+    let md = require('markdown-it')({
       html: true,
       linkify: true,
       typography: true
-    }).use(require('../'));
+    }).use(require('../lib'));
     generate(path.join(__dirname, 'fixtures/video.txt'), md);
   });
 
   describe('with bem convention', function() {
-    var md = require('markdown-it')({
+    let md = require('markdown-it')({
       html: true,
       linkify: true,
       typography: true
-    }).use(require('../'), {
+    }).use(require('../lib'), {
       outputPlayerId: false,
       elementDelimiter: '__',
       modifierDelimiter: '--'
@@ -28,11 +29,11 @@ describe('markdown-it-video', function() {
   });
 
   describe('without size attributes', function() {
-    var md = require('markdown-it')({
+    let md = require('markdown-it')({
       html: true,
       linkify: true,
       typography: true
-    }).use(require('../'), {
+    }).use(require('../lib'), {
       outputPlayerSize: false
     });
     generate(path.join(__dirname, 'fixtures/video-without-size-attributes.txt'), md);
