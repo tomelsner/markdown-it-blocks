@@ -36,8 +36,7 @@
     "babelify": "^7.3.0",
     "browserify": "^13.0.1",
     "coveralls": "^2.11.2",
-    "eslint": "^0.13.0",
-    "eslint-plugin-nodeca": "^1.0.3",
+    "eslint": "^3.0.1",
     "istanbul": "^0.3.5",
     "mocha": "^2.1.0"
   }
