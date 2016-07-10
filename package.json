@@ -2,15 +2,15 @@
   "name": "markdown-it-video",
   "version": "0.4.0",
   "description": "Markdown-it plugin to embed a hosted videos",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "browserify lib/index.js -o dist/index.js -t [ babelify ]",
+    "build-browser": "rm -rf dist && mkdir dist && browserify lib/index.js -o dist/index.js -t [ babelify ]",
     "test": "npm run test-lint && npm run test-spec",
     "test-ci": "npm run test-lint && npm run test-coverage-ci",
-    "test-spec": "mocha --compilers js:babel-register",
-    "test-lint": "eslint ./lib && eslint ./test",
-    "test-coverage": "rm -rf coverage && istanbul cover ./node_modules/mocha/bin/_mocha -- --compilers js:babel-register",
-    "test-coverage-ci": "rm -rf coverage && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec --compilers js:babel-register && cat ./coverage/lcov.info | node ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test-spec": "mocha",
+    "test-lint": "eslint lib && eslint test",
+    "test-coverage": "rm -rf coverage && istanbul cover node_modules/mocha/bin/_mocha",
+    "test-coverage-ci": "rm -rf coverage && istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat coverage/lcov.info | node node_modules/coveralls/bin/coveralls.js && rm -rf coverage"
   },
   "repository": {
     "type": "git",
