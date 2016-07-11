@@ -4,7 +4,7 @@
   "description": "Markdown-it plugin to embed a hosted videos",
   "main": "lib/index.js",
   "scripts": {
-    "build-browser": "rm -rf dist && mkdir dist && browserify lib/index.js -o dist/index.js -t [ babelify ]",
+    "build-browser": "rm -rf dist && mkdir dist && browserify lib/index.js -o dist/markdown-it-video.js -t [ babelify ]",
     "test": "npm run test-lint && npm run test-spec",
     "test-ci": "npm run test-lint && npm run test-coverage-ci",
     "test-spec": "mocha",
