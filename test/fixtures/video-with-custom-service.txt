@@ -9,3 +9,10 @@ Coverage. Video with Custom Service
 .
 <div class="embed-responsive embed-responsive-service-youtube embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" src="https://example.com/embed/video-id-abc/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
+
+Coverage. Base Services Still Present
+.
+@[vimeo](119932781)
+.
+<div class="embed-responsive embed-responsive-service-vimeo embed-responsive-16by9"><iframe class="embed-responsive-item" id="vimeoplayer" width="500" height="281" type="text/html" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
