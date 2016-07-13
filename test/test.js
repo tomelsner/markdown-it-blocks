@@ -3,6 +3,8 @@
 const path = require('path');
 const generate = require('markdown-it-testgen');
 
+const CustomService = require('./fakes/CustomService');
+
 
 describe('markdown-it-video', function() {
 
@@ -37,6 +39,23 @@ describe('markdown-it-video', function() {
       outputPlayerSize: false
     });
     generate(path.join(__dirname, 'fixtures/video-without-size-attributes.txt'), md);
+  });
+
+  describe('with custom service', function() {
+    let md = require('markdown-it')({
+      html: true,
+      linkify: true,
+      typography: true
+    }).use(require('../lib'), {
+      services: {
+        'custom': CustomService,
+        'youtube': CustomService
+      },
+      custom: {
+        magicNumber: 123
+      }
+    });
+    generate(path.join(__dirname, 'fixtures/video-with-custom-service.txt'), md);
   });
 
 });

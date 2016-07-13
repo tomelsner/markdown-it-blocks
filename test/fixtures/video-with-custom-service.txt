@@ -1,0 +1,11 @@
+Coverage. Video with Custom Service
+.
+@[custom](video-id-abc)
+.
+<div class="embed-responsive embed-responsive-service-custom embed-responsive-16by9"><iframe class="embed-responsive-item" id="customplayer" type="text/html" src="https://example.com/embed/video-id-abc/123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+.
+@[youtube](video-id-abc)
+.
+<div class="embed-responsive embed-responsive-service-youtube embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" src="https://example.com/embed/video-id-abc/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
