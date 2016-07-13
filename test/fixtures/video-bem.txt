@@ -8,3 +8,4 @@ Coverage. BEM style class names
 @[vimeo](x)
 .
 <div class="embed-responsive embed-responsive--service-vimeo embed-responsive--16by9"><iframe class="embed-responsive__item" width="500" height="281" type="text/html" src="//player.vimeo.com/video/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
