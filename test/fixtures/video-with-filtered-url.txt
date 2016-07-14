@@ -1,0 +1,11 @@
+Coverage. With Filtered URL 
+.
+@[youtube](dQw4w9WgXcQ)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/dQw4w9WgXcQ?a=youtube&b=dQw4w9WgXcQ&c=embed-responsive" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+.
+@[vimeo](x)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/x?a=vimeo&b=x&c=embed-responsive" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.

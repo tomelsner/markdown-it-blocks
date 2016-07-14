@@ -44,6 +44,13 @@ describe('markdown-it-video', function() {
     generate(path.join(__dirname, 'fixtures/video-without-allowfullscreen-attributes.txt'), md);
   });
 
+  describe('with filtered url', function() {
+    let md = setupMarkdownIt().use(require('../lib'), {
+      filterUrl: (url, serviceName, videoID, options) => `${url}?a=${serviceName}&b=${videoID}&c=${options.containerClassName}`
+    });
+    generate(path.join(__dirname, 'fixtures/video-with-filtered-url.txt'), md);
+  });
+
   describe('with custom service', function() {
     let md = setupMarkdownIt().use(require('../lib'), {
       services: {
