@@ -144,27 +144,25 @@ Alternately, you could use the url.
 
 ## Options
 
-Option              | Type       | Default              | Description
-:-------------------|:-----------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------
-`outputPlayerSize`  | `boolean`  | `true`               | Indicates if 'width' and 'height' attributes are written to output.
-`elementDelimiter`  | `string`   | `'-'`                | Character that separates element name from block name in CSS class.
-`modifierDelimiter` | `string`   | `'-'`                | Character that separates modifier name from element name in CSS class.
-`blockName`         | `string`   | `'embed-responsive'` | Class name of the embed container.
-`modifierName`      | `string`   | `'16by9'`            | Modifier name to apply to embed container.
-`url`               | `function` | -                    | A function that customizes url output. Signature: `function (serviceName: string, videoID: string, options: object): string`
-`allowFullScreen`   | `boolean`  | `true`               | Indicates whether embed iframe should be allowed to enter full screen mode.
-                    |            |                      |
-`{service-name}`    | `object`   | -                    | Options can be supplied to embed services. 
-                    |            |                      |
-`youtube.width`     | `number`   | `640`                | Width of YouTube embed.
-`youtube.height`    | `number`   | `390`                | Height of YouTube embed.
-                    |            |                      |
-`vimeo.width`       | `number`   | `500`                | Width of Vimeo embed.
-`vimeo.height`      | `number`   | `281`                | Height of Vimeo embed.
-                    |            |                      |
-`vine.width`        | `number`   | `600`                | Width of Vine embed.
-`vine.height`       | `number`   | `600`                | Height of Vine embed.
-`vine.embed`        | `string`   | `'simple'`           | Type of embed; for instance, `'simple'` or `'postcard'` (see https://dev.twitter.com/web/vine).
-                    |            |                      |
-`prezi.width`       | `number`   | `550`                | Width of Prezi embed.
-`prezi.height`      | `number`   | `400`                | Height of Prezi embed.
+Option               | Type               | Default                       | Description
+:--------------------|:-------------------|:------------------------------|:----------------------------------------------------------------------------------------------------------------------------
+`containerClassName` | `string` \| `null` | `'embed-responsive'`          | Class name for image container element.
+`serviceClassPrefix` | `string`           | `'embed-responsive-service-'` | Prefix for service name in CSS class.
+`url`                | `function`         | -                             | A function that customizes url output. Signature: `function (serviceName: string, videoID: string, options: object): string`
+`outputPlayerSize`   | `boolean`          | `true`                        | Indicates if 'width' and 'height' attributes are written to output.
+`allowFullScreen`    | `boolean`          | `true`                        | Indicates whether embed iframe should be allowed to enter full screen mode.
+                     |                    |                               |
+`{service-name}`     | `object`           | -                             | Options can be supplied to embed services. 
+                     |                    |                               |
+`youtube.width`      | `number`           | `640`                         | Width of YouTube embed.
+`youtube.height`     | `number`           | `390`                         | Height of YouTube embed.
+                     |                    |                               |
+`vimeo.width`        | `number`           | `500`                         | Width of Vimeo embed.
+`vimeo.height`       | `number`           | `281`                         | Height of Vimeo embed.
+                     |                    |                               |
+`vine.width`         | `number`           | `600`                         | Width of Vine embed.
+`vine.height`        | `number`           | `600`                         | Height of Vine embed.
+`vine.embed`         | `string`           | `'simple'`                    | Type of embed; for instance, `'simple'` or `'postcard'` (see https://dev.twitter.com/web/vine).
+                     |                    |                               |
+`prezi.width`        | `number`           | `550`                         | Width of Prezi embed.
+`prezi.height`       | `number`           | `400`                         | Height of Prezi embed.

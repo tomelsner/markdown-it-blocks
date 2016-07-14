@@ -22,12 +22,12 @@ describe('markdown-it-video', function() {
     generate(path.join(__dirname, 'fixtures/video.txt'), md);
   });
 
-  describe('with bem convention', function() {
+  describe('with custom class names', function() {
     let md = setupMarkdownIt().use(require('../lib'), {
-      elementDelimiter: '__',
-      modifierDelimiter: '--'
+      containerClassName: 'custom-container',
+      serviceClassPrefix: 'custom-container--service-'
     });
-    generate(path.join(__dirname, 'fixtures/video-bem.txt'), md);
+    generate(path.join(__dirname, 'fixtures/video-with-custom-class-names.txt'), md);
   });
 
   describe('without size attributes', function() {
