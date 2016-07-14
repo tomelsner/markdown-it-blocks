@@ -30,7 +30,7 @@ var md = require('markdown-it')({
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-youtube embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-service-youtube embed-responsive-16by9">
   <iframe class="embed-responsive-item"
           id="youtubeplayer"
           type="text/html"
@@ -64,7 +64,7 @@ Alternately, you could use a number of different YouTube URL formats rather than
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-vimeo embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-service-vimeo embed-responsive-16by9">
   <iframe class="embed-responsive-item"
           id="vimeoplayer"
           type="text/html"
@@ -92,7 +92,7 @@ Alternately, you could use the url instead of just the video id.
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-vine embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-service-vine embed-responsive-16by9">
   <iframe class="embed-responsive-item"
           id="vineplayer"
           type="text/html"
@@ -121,7 +121,7 @@ Alternately, you could use the url, or even the whole embed tag instead of just 
 is interpreted as 
 
 ```html
-<div class="embed-responsive embed-responsive-prezi embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-service-prezi embed-responsive-16by9">
   <iframe class="embed-responsive-item"
           id="preziplayer"
           type="text/html"
