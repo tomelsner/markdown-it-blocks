@@ -2,10 +2,10 @@ Coverage. Without 'width' and 'height' attributes
 .
 @[youtube](dQw4w9WgXcQ)
 .
-<div class="embed-responsive embed-responsive-service-youtube embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-youtube embed-responsive-16by9"><iframe class="embed-responsive-item" type="text/html" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 .
 @[vimeo](x)
 .
-<div class="embed-responsive embed-responsive-service-vimeo embed-responsive-16by9"><iframe class="embed-responsive-item" id="vimeoplayer" type="text/html" src="//player.vimeo.com/video/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo embed-responsive-16by9"><iframe class="embed-responsive-item" type="text/html" src="//player.vimeo.com/video/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .

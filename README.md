@@ -146,7 +146,6 @@ Alternately, you could use the url.
 
 Option              | Type       | Default              | Description
 :-------------------|:-----------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------
-`outputPlayerId`    | `boolean`  | `true`               | Indicates if a player 'id' attribute is written to output.
 `outputPlayerSize`  | `boolean`  | `true`               | Indicates if 'width' and 'height' attributes are written to output.
 `elementDelimiter`  | `string`   | `'-'`                | Character that separates element name from block name in CSS class.
 `modifierDelimiter` | `string`   | `'-'`                | Character that separates modifier name from element name in CSS class.

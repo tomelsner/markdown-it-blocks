@@ -24,7 +24,6 @@ describe('markdown-it-video', function() {
 
   describe('with bem convention', function() {
     let md = setupMarkdownIt().use(require('../lib'), {
-      outputPlayerId: false,
       elementDelimiter: '__',
       modifierDelimiter: '--'
     });
