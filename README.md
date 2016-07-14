@@ -153,6 +153,7 @@ Option              | Type       | Default              | Description
 `blockName`         | `string`   | `'embed-responsive'` | Class name of the embed container.
 `modifierName`      | `string`   | `'16by9'`            | Modifier name to apply to embed container.
 `url`               | `function` | -                    | A function that customizes url output. Signature: `function (serviceName: string, videoID: string, options: object): string`
+`allowFullScreen`   | `boolean`  | `true`               | Indicates whether embed iframe should be allowed to enter full screen mode.
                     |            |                      |
 `{service-name}`    | `object`   | -                    | Options can be supplied to embed services. 
                     |            |                      |

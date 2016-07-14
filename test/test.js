@@ -38,6 +38,13 @@ describe('markdown-it-video', function() {
     generate(path.join(__dirname, 'fixtures/video-without-size-attributes.txt'), md);
   });
 
+  describe('without allowfullscreen attributes', function() {
+    let md = setupMarkdownIt().use(require('../lib'), {
+      allowFullScreen: false
+    });
+    generate(path.join(__dirname, 'fixtures/video-without-allowfullscreen-attributes.txt'), md);
+  });
+
   describe('with custom service', function() {
     let md = setupMarkdownIt().use(require('../lib'), {
       services: {
