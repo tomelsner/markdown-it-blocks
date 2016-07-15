@@ -14,45 +14,56 @@ function setupMarkdownIt() {
   });
 }
 
+function testFixture(fixtureName, options) {
+  let md = setupMarkdownIt().use(require('../lib'), options);
+  generate(path.join(__dirname, `fixtures/${fixtureName}.txt`), md);
+}
+
+function testFixtureWithExampleService(fixtureName, options) {
+  let vanillaOptions = {
+    services: {
+      // Testing with fake service to avoid coupling with specific services.
+      'example': CustomService
+    }
+  };
+  testFixture(fixtureName, Object.assign({}, vanillaOptions, options));
+}
+
 
 describe('markdown-it-video', function() {
 
-  describe('with default options', function() {
-    let md = setupMarkdownIt().use(require('../lib'));
-    generate(path.join(__dirname, 'fixtures/video.txt'), md);
+  describe('vanilla embed tag syntax', function() {
+    testFixtureWithExampleService('tag-syntax');
   });
 
   describe('with custom class names', function() {
-    let md = setupMarkdownIt().use(require('../lib'), {
+    testFixtureWithExampleService('custom-class-names', {
       containerClassName: 'custom-container',
       serviceClassPrefix: 'custom-container--service-'
     });
-    generate(path.join(__dirname, 'fixtures/video-with-custom-class-names.txt'), md);
   });
 
   describe('without size attributes', function() {
-    let md = setupMarkdownIt().use(require('../lib'), {
+    testFixtureWithExampleService('without-size-attributes', {
+      example: { width: 123, height: 456 },
       outputPlayerSize: false
     });
-    generate(path.join(__dirname, 'fixtures/video-without-size-attributes.txt'), md);
   });
 
   describe('without allowfullscreen attributes', function() {
-    let md = setupMarkdownIt().use(require('../lib'), {
+    testFixtureWithExampleService('without-allowfullscreen-attributes', {
       allowFullScreen: false
     });
-    generate(path.join(__dirname, 'fixtures/video-without-allowfullscreen-attributes.txt'), md);
   });
 
   describe('with filtered url', function() {
-    let md = setupMarkdownIt().use(require('../lib'), {
+    testFixtureWithExampleService('filtered-url', {
       filterUrl: (url, serviceName, videoID, options) => `${url}?a=${serviceName}&b=${videoID}&c=${options.containerClassName}`
     });
-    generate(path.join(__dirname, 'fixtures/video-with-filtered-url.txt'), md);
   });
 
-  describe('with custom service', function() {
-    let md = setupMarkdownIt().use(require('../lib'), {
+  describe('providing custom services', function() {
+    testFixture('custom-service', {
       services: {
         'custom': CustomService,
         'youtube': CustomService
@@ -61,7 +72,12 @@ describe('markdown-it-video', function() {
         magicNumber: 123
       }
     });
-    generate(path.join(__dirname, 'fixtures/video-with-custom-service.txt'), md);
   });
+
+  for (let serviceName of [ 'prezi', 'vimeo', 'vine', 'youtube' ]) {
+    describe(`service: ${serviceName}`, function() {
+      testFixture(`services/${serviceName}`);
+    });
+  }
 
 });

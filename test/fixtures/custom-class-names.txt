@@ -1,0 +1,13 @@
+Coverage. Custom class names
+
+.
+@[example](video-123)
+.
+<div class="custom-container custom-container--service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[example](x)
+.
+<div class="custom-container custom-container--service-example"><iframe type="text/html" src="https://example.com/embed/x/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.

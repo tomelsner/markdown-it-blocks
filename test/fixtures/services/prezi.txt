@@ -1,0 +1,28 @@
+Coverage. Prezi from ID
+
+.
+@[prezi](1kkxdtlp4241)
+.
+<div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/1kkxdtlp4241/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[prezi](x)
+.
+<div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/x/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+
+Coverage. Prezi from URL
+
+.
+@[prezi](https://prezi.com/1kkxdtlp4241/valentines-day/)
+.
+<div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/1kkxdtlp4241/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[prezi]( https://prezi.com/1kkxdtlp4241)
+.
+<div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/1kkxdtlp4241/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.

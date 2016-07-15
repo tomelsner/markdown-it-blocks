@@ -1,0 +1,22 @@
+Coverage. Vine from ID
+
+.
+@[vine](MhQ2lvg29Un)
+.
+<div class="embed-responsive embed-responsive-service-vine"><iframe type="text/html" width="600" height="600" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+
+Coverage. Vine from URL
+
+.
+@[vine](https://vine.co/v/MhQ2lvg29Un/embed)
+.
+<div class="embed-responsive embed-responsive-service-vine"><iframe type="text/html" width="600" height="600" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[vine](https://vine.co/v/MhQ2lvg29Un)
+.
+<div class="embed-responsive embed-responsive-service-vine"><iframe type="text/html" width="600" height="600" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.

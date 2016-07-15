@@ -1,0 +1,180 @@
+Coverage. Valid block tag syntax
+
+.
+@[example](video-123)
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+Paragraph before
+
+@[example](video-123)
+.
+<p>Paragraph before</p>
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[example](video-123)
+
+Paragraph after
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<p>Paragraph after</p>
+.
+
+.
+Paragraph before
+
+@[example](video-123)
+
+Paragraph after
+.
+<p>Paragraph before</p>
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<p>Paragraph after</p>
+.
+
+.
+> Inside block quote:
+>
+> @[example](video-123)
+.
+<blockquote>
+<p>Inside block quote:</p>
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+</blockquote>
+.
+
+
+Coverage. Missing service name
+
+.
+@[](x)
+.
+<p>@<a href="x"></a></p>
+.
+
+
+Coverage. Missing embed reference (consistent with images)
+
+.
+@[example]()
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed//42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+
+Coverage. Extra spacing inside tag syntax
+
+.
+@[  example  ](  video-123  )
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[example](
+video-123 )
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[example](
+video-123
+ )
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[
+  example
+](
+  video-123
+)
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+
+Coverage. Trailing whitespace after embed tag \/
+.
+@[example](video-123)                                
+.
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+
+Coverage. Usage of unknown service
+
+.
+@[unknown-service](video-123)
+.
+<p>@<a href="video-123">unknown-service</a></p>
+.
+
+
+Coverage. Invalid inline tag syntax
+
+.
+@[]example(video-123)
+.
+<p>@[]example(video-123)</p>
+.
+
+.
+@[(example]
+.
+<p>@[(example]</p>
+.
+
+.
+text before @[example](video-123)
+.
+<p>text before @<a href="video-123">example</a></p>
+.
+
+.
+@[example](video-123) text after
+.
+<p>@<a href="video-123">example</a> text after</p>
+.
+
+.
+Line above embed tag
+@[example](video-123)
+.
+<p>Line above embed tag
+@<a href="video-123">example</a></p>
+.
+
+.
+@[example](video-123)
+Line below embed tag
+.
+<p>@<a href="video-123">example</a>
+Line below embed tag</p>
+.
+
+.
+Line above embed tag
+@[example](video-123)
+Line below embed tag
+.
+<p>Line above embed tag
+@<a href="video-123">example</a>
+Line below embed tag</p>
+.
+
+.
+Code snippet:
+
+    @[example](video-123)
+.
+<p>Code snippet:</p>
+<pre><code>@[example](video-123)
+</code></pre>
+.

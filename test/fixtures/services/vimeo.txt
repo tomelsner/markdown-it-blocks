@@ -1,0 +1,52 @@
+Coverage. Vimeo from ID
+
+.
+@[vimeo](x)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+
+Coverage. Vimeo from URL
+
+.
+@[vimeo](https://vimeo.com/119932781)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[vimeo](https://www.vimeo.com/119932781)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[vimeo](http://vimeo.com/channels/mychannel/119932781)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[vimeo](https://vimeo.com/groups/staffpicks/videos/119932781)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[vimeo](http://vimeo.com/album/2222222/video/119932781)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[vimeo](https://vimeo.com/119932781?param=test)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[vimeo](http://player.vimeo.com/119932781)
+.
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.

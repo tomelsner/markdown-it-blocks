@@ -1,0 +1,64 @@
+Coverage. Youtube from ID
+
+.
+@[youtube](dQw4w9WgXcQ)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](x)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+
+Coverage. Youtube from URL
+
+.
+@[youtube](//www.youtube.com/embed/dQw4w9WgXcQ)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](//www.youtube.com/watch?v=0zM3nApSvMg&feature=feedrec_grec_index)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](//www.youtube.com/user/IngridMichaelsonVEVO#p/a/u/1/QdK8U-VIH_o)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/QdK8U-VIH_o" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](//www.youtube.com/v/0zM3nApSvMg?fs=1&amp;hl=en_US&amp;rel=0)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](//www.youtube.com/watch?v=0zM3nApSvMg#t=0m10s)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](//www.youtube.com/embed/0zM3nApSvMg?rel=0)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](//www.youtube.com/watch?v=0zM3nApSvMg)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+
+.
+@[youtube](http://youtu.be/0zM3nApSvMg)
+.
+<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.

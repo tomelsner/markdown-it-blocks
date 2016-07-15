@@ -1,16 +1,20 @@
-Coverage. Video with Custom Service
+Coverage. Video with custom service
+
 .
 @[custom](video-id-abc)
 .
 <div class="embed-responsive embed-responsive-service-custom"><iframe type="text/html" src="https://example.com/embed/video-id-abc/123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
+
 .
 @[youtube](video-id-abc)
 .
 <div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" src="https://example.com/embed/video-id-abc/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
-Coverage. Base Services Still Present
+
+Coverage. Base services still present
+
 .
 @[vimeo](119932781)
 .
