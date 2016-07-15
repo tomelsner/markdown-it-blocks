@@ -1,5 +1,9 @@
 # markdown-it-block-embed [![Build Status](https://travis-ci.org/rotorz/markdown-it-block-embed.svg?branch=master)](https://travis-ci.org/rotorz/markdown-it-block-embed)
 
+[![npm version](https://badge.fury.io/js/markdown-it-block-embed.svg)](https://badge.fury.io/js/markdown-it-block-embed)
+[![Dependency Status](https://david-dm.org/rotorz/markdown-it-block-embed.svg)](https://david-dm.org/rotorz/markdown-it-block-embed)
+[![devDependency Status](https://david-dm.org/rotorz/markdown-it-block-embed/dev-status.svg)](https://david-dm.org/rotorz/markdown-it-block-embed#info=devDependencies)
+
 Plugin for markdown-it that detects and outputs block level embeds such as videos and supports custom embed services.
 
 This project started is a fork of the [markdown-it-video](https://github.com/brianjgeiger/markdown-it-video)

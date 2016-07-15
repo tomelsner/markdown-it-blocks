@@ -4,7 +4,7 @@
   "description": "Plugin for markdown-it that detects and outputs block level embeds such as videos and supports custom embed services.",
   "main": "lib/index.js",
   "scripts": {
-    "build-browser": "rm -rf dist && mkdir dist && browserify lib/index.js -o dist/markdown-it-video.js -t [ babelify ]",
+    "build-browser": "rm -rf dist && mkdir dist && browserify lib/index.js -o dist/markdown-it-block-embed.js -t [ babelify ]",
     "test": "npm run test-lint && npm run test-spec",
     "test-ci": "npm run test-lint && npm run test-coverage-ci",
     "test-spec": "mocha",
@@ -18,10 +18,6 @@
   },
   "author": "Rotorz Limited",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brianjgeiger/markdown-it-video/issues"
-  },
-  "homepage": "https://github.com/brianjgeiger/markdown-it-video",
   "keywords": [
     "markdown-it",
     "markdown-it-plugin"
