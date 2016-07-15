@@ -3,13 +3,13 @@ Coverage. Vimeo from ID
 .
 @[vimeo](19706846)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vimeo](x)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/x" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 
@@ -18,41 +18,41 @@ Coverage. Vimeo from URL
 .
 @[vimeo](https://vimeo.com/19706846)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vimeo](https://www.vimeo.com/19706846)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vimeo](http://vimeo.com/channels/mychannel/19706846)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vimeo](https://vimeo.com/groups/staffpicks/videos/19706846)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vimeo](http://vimeo.com/album/2222222/video/19706846)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vimeo](https://vimeo.com/19706846?param=test)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vimeo](http://player.vimeo.com/19706846)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/19706846" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .

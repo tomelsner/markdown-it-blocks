@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-const VideoServiceBase = require('../../lib/services/VideoServiceBase');
+const VideoServiceBase = require("../../lib/services/VideoServiceBase");
 
 
 class CustomService extends VideoServiceBase {

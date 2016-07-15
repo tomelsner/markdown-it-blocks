@@ -1,11 +1,8 @@
 env:
-  browser: false
+  browser: true
   es6: true
   mocha: true
   node: true
 extends: '../.eslintrc.yml'
-parserOptions:
-  sourceType: script
 rules:
-  global-require: 'off'
-  strict: error
+  new-cap: 'off'

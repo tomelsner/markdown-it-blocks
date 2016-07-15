@@ -18,5 +18,5 @@ Coverage. Base services still present
 .
 @[vimeo](119932781)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" width="500" height="281" src="//player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/119932781" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
