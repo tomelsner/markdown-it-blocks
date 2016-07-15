@@ -47,6 +47,21 @@ Paragraph after
 </blockquote>
 .
 
+.
+> > > Inside multiple block quotes:
+> > >
+> > > @[example](video-123)
+.
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Inside multiple block quotes:</p>
+<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+</blockquote>
+</blockquote>
+</blockquote>
+.
+
 
 Coverage. Missing service name
 
