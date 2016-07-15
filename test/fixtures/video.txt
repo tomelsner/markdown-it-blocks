@@ -7,15 +7,14 @@ Coverage. Youtube from ID
 .
 @[youtube](x) a
 .
-<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-<p>a</p>
+<p>@<a href="x">youtube</a> a</p>
 .
 .
 @[youtube](x)
 a
 .
-<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-<p>a</p>
+<p>@<a href="x">youtube</a>
+a</p>
 .
 .
 a @[youtube](x)
@@ -227,10 +226,18 @@ Coverage. Vimeo from URL
 .
 .
 Def Leppard ("Lets get rocked")
+
 @[youtube](https://youtu.be/BO1Nae_EBvQ)
 .
 <p>Def Leppard (&quot;Lets get rocked&quot;)</p>
 <div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" width="640" height="390" src="//www.youtube.com/embed/BO1Nae_EBvQ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+.
+.
+Def Leppard ("Lets get rocked")
+@[youtube](https://youtu.be/BO1Nae_EBvQ)
+.
+<p>Def Leppard (&quot;Lets get rocked&quot;)
+@<a href="https://youtu.be/BO1Nae_EBvQ">youtube</a></p>
 .
 
 Coverage. Prezi from ID
@@ -242,26 +249,24 @@ Coverage. Prezi from ID
 .
 @[prezi](x) a
 .
-<div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/x/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-<p>a</p>
+<p>@<a href="x">prezi</a> a</p>
 .
 .
 @[prezi](x) a **bold** b
 .
-<div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/x/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-<p>a <strong>bold</strong> b</p>
+<p>@<a href="x">prezi</a> a <strong>bold</strong> b</p>
 .
 .
 @[prezi](x)
 a
 .
-<div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/x/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-<p>a</p>
+<p>@<a href="x">prezi</a>
+a</p>
 .
 .
 a @[prezi](x)
 .
-<p>a <div class="embed-responsive embed-responsive-service-prezi"><iframe type="text/html" width="550" height="400" src="https://prezi.com/embed/x/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<p>a @<a href="x">prezi</a></p>
 .
 .
 @[prezi]( x)
