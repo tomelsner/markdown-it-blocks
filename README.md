@@ -30,14 +30,13 @@ var md = require('markdown-it')({
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-service-youtube embed-responsive-16by9">
-  <iframe class="embed-responsive-item"
-          id="youtubeplayer"
-          type="text/html"
+<div class="embed-responsive embed-responsive-service-youtube">
+  <iframe type="text/html"
           width="640"
           height="390"
           src="//www.youtube.com/embed/dQw4w9WgXcQ"
-          frameborder="0">
+          frameborder="0"
+          webkitallowfullscreen mozallowfullscreen allowfullscreen>
   </iframe>
 </div>
 ```
@@ -64,14 +63,13 @@ Alternately, you could use a number of different YouTube URL formats rather than
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-service-vimeo embed-responsive-16by9">
-  <iframe class="embed-responsive-item"
-          id="vimeoplayer"
-          type="text/html"
+<div class="embed-responsive embed-responsive-service-vimeo">
+  <iframe type="text/html"
           width="500"
           height="281"
           src="//player.vimeo.com/video/19706846"
-          frameborder="0">
+          frameborder="0"
+          webkitallowfullscreen mozallowfullscreen allowfullscreen>
   </iframe>
 </div>
 ```
@@ -92,14 +90,13 @@ Alternately, you could use the url instead of just the video id.
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-service-vine embed-responsive-16by9">
-  <iframe class="embed-responsive-item"
-          id="vineplayer"
-          type="text/html"
+<div class="embed-responsive embed-responsive-service-vine">
+  <iframe type="text/html"
           width="600"
           height="600"
           src="//vine.co/v/etVpwB7uHlw/embed/simple"
-          frameborder="0">
+          frameborder="0"
+          webkitallowfullscreen mozallowfullscreen allowfullscreen>
   </iframe>
 </div>
 ```
@@ -121,10 +118,8 @@ Alternately, you could use the url, or even the whole embed tag instead of just 
 is interpreted as 
 
 ```html
-<div class="embed-responsive embed-responsive-service-prezi embed-responsive-16by9">
-  <iframe class="embed-responsive-item"
-          id="preziplayer"
-          type="text/html"
+<div class="embed-responsive embed-responsive-service-prezi">
+  <iframe type="text/html"
           width="550"
           height="400"
           src="https://prezi.com/embed/1kkxdtlp4241/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI"
