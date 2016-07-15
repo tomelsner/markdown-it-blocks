@@ -3,7 +3,7 @@ Coverage. Valid block tag syntax
 .
 @[example](video-123)
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
@@ -12,7 +12,7 @@ Paragraph before
 @[example](video-123)
 .
 <p>Paragraph before</p>
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
@@ -20,7 +20,7 @@ Paragraph before
 
 Paragraph after
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 <p>Paragraph after</p>
 .
 
@@ -32,7 +32,7 @@ Paragraph before
 Paragraph after
 .
 <p>Paragraph before</p>
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 <p>Paragraph after</p>
 .
 
@@ -43,7 +43,7 @@ Paragraph after
 .
 <blockquote>
 <p>Inside block quote:</p>
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 </blockquote>
 .
 
@@ -56,7 +56,7 @@ Paragraph after
 <blockquote>
 <blockquote>
 <p>Inside multiple block quotes:</p>
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -77,7 +77,7 @@ Coverage. Missing embed reference (consistent with images)
 .
 @[example]()
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed//42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed//42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 
@@ -86,14 +86,14 @@ Coverage. Extra spacing inside tag syntax
 .
 @[  example  ](  video-123  )
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[example](
 video-123 )
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
@@ -101,7 +101,7 @@ video-123 )
 video-123
  )
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
@@ -111,7 +111,7 @@ video-123
   video-123
 )
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 
@@ -138,7 +138,7 @@ Coverage. Trailing whitespace after embed tag \/
 .
 @[example](video-123)                                
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 

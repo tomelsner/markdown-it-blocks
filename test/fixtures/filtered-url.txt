@@ -3,11 +3,11 @@ Coverage. With filtered URL
 .
 @[example](video-123)
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42?a=example&b=video-123&c=embed-responsive" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/video-123/42?a=example&b=video-123&c=block-embed" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[example](x)
 .
-<div class="embed-responsive embed-responsive-service-example"><iframe type="text/html" src="https://example.com/embed/x/42?a=example&b=x&c=embed-responsive" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-example"><iframe type="text/html" src="https://example.com/embed/x/42?a=example&b=x&c=block-embed" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .

@@ -3,13 +3,13 @@ Coverage. Video with custom service
 .
 @[custom](video-id-abc)
 .
-<div class="embed-responsive embed-responsive-service-custom"><iframe type="text/html" src="https://example.com/embed/video-id-abc/123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-custom"><iframe type="text/html" src="https://example.com/embed/video-id-abc/123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[youtube](video-id-abc)
 .
-<div class="embed-responsive embed-responsive-service-youtube"><iframe type="text/html" src="https://example.com/embed/video-id-abc/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="https://example.com/embed/video-id-abc/42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 
@@ -18,5 +18,5 @@ Coverage. Base services still present
 .
 @[vimeo](119932781)
 .
-<div class="embed-responsive embed-responsive-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/119932781" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-vimeo"><iframe type="text/html" src="//player.vimeo.com/video/119932781" frameborder="0" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .

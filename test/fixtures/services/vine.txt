@@ -3,7 +3,7 @@ Coverage. Vine from ID
 .
 @[vine](MhQ2lvg29Un)
 .
-<div class="embed-responsive embed-responsive-service-vine"><iframe type="text/html" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" width="600" height="600" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-vine"><iframe type="text/html" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" width="600" height="600" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 
@@ -12,11 +12,11 @@ Coverage. Vine from URL
 .
 @[vine](https://vine.co/v/MhQ2lvg29Un/embed)
 .
-<div class="embed-responsive embed-responsive-service-vine"><iframe type="text/html" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" width="600" height="600" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-vine"><iframe type="text/html" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" width="600" height="600" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .
 
 .
 @[vine](https://vine.co/v/MhQ2lvg29Un)
 .
-<div class="embed-responsive embed-responsive-service-vine"><iframe type="text/html" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" width="600" height="600" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="block-embed block-embed-service-vine"><iframe type="text/html" src="//vine.co/v/MhQ2lvg29Un/embed/simple" frameborder="0" width="600" height="600" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 .

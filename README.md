@@ -21,7 +21,7 @@ Here is an embedded video:
 
 Output (with default options):
 ```html
-<div class="embed-responsive embed-responsive-service-youtube">
+<div class="block-embed block-embed-service-youtube">
   <iframe type="text/html"
           width="640"
           height="390"
@@ -59,34 +59,34 @@ console.log(output);
 
 ## Options
 
-Option               | Type                 | Default                       | Description
-:--------------------|:---------------------|:------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------
-`containerClassName` | `string` \| `null`   | `'embed-responsive'`          | Class name for image container element.
-`serviceClassPrefix` | `string`             | `'embed-responsive-service-'` | Prefix for service name in CSS class.
-`outputPlayerSize`   | `boolean`            | `true`                        | Indicates if 'width' and 'height' attributes are written to output.
-`allowFullScreen`    | `boolean`            | `true`                        | Indicates whether embed iframe should be allowed to enter full screen mode.
-`filterUrl`          | `function` \| `null` | `null`                        | A function that customizes url output. Signature: `function (url: string, serviceName: string, videoID: string, options: object): string`
-                     |                      |                               |
-`services.{name}`    | `function`           | -                             | A function that constructs a new instance of the service. Can extend `VideoServiceBase`.
-`services.youtube`   | `function`           | `YouTubeService`              | Implementation of the 'youtube' embed service. Can be overridden by a custom implementation.
-`services.vimeo`     | `function`           | `VimeoService`                | Implementation of the 'vimeo' embed service. Can be overridden by a custom implementation.
-`services.vine`      | `function`           | `VineService`                 | Implementation of the 'vine' embed service. Can be overridden by a custom implementation.
-`services.prezi`     | `function`           | `PreziService`                | Implementation of the 'prezi' embed service. Can be overridden by a custom implementation.
-                     |                      |                               |
-`{service-name}`     | `object`             | -                             | Options can be supplied to embed services. 
-                     |                      |                               |
-`youtube.width`      | `number`             | `640`                         | Width of YouTube embed.
-`youtube.height`     | `number`             | `390`                         | Height of YouTube embed.
-                     |                      |                               |
-`vimeo.width`        | `number`             | `500`                         | Width of Vimeo embed.
-`vimeo.height`       | `number`             | `281`                         | Height of Vimeo embed.
-                     |                      |                               |
-`vine.width`         | `number`             | `600`                         | Width of Vine embed.
-`vine.height`        | `number`             | `600`                         | Height of Vine embed.
-`vine.embed`         | `string`             | `'simple'`                    | Type of embed; for instance, `'simple'` or `'postcard'` (see https://dev.twitter.com/web/vine).
-                     |                      |                               |
-`prezi.width`        | `number`             | `550`                         | Width of Prezi embed.
-`prezi.height`       | `number`             | `400`                         | Height of Prezi embed.
+Option               | Type                 | Default                  | Description
+:--------------------|:---------------------|:-------------------------|:------------------------------------------------------------------------------------------------------------------------------------------
+`containerClassName` | `string` \| `null`   | `'block-embed'`          | Class name for image container element.
+`serviceClassPrefix` | `string`             | `'block-embed-service-'` | Prefix for service name in CSS class.
+`outputPlayerSize`   | `boolean`            | `true`                   | Indicates if 'width' and 'height' attributes are written to output.
+`allowFullScreen`    | `boolean`            | `true`                   | Indicates whether embed iframe should be allowed to enter full screen mode.
+`filterUrl`          | `function` \| `null` | `null`                   | A function that customizes url output. Signature: `function (url: string, serviceName: string, videoID: string, options: object): string`
+                     |                      |                          |
+`services.{name}`    | `function`           | -                        | A function that constructs a new instance of the service. Can extend `VideoServiceBase`.
+`services.youtube`   | `function`           | `YouTubeService`         | Implementation of the 'youtube' embed service. Can be overridden by a custom implementation.
+`services.vimeo`     | `function`           | `VimeoService`           | Implementation of the 'vimeo' embed service. Can be overridden by a custom implementation.
+`services.vine`      | `function`           | `VineService`            | Implementation of the 'vine' embed service. Can be overridden by a custom implementation.
+`services.prezi`     | `function`           | `PreziService`           | Implementation of the 'prezi' embed service. Can be overridden by a custom implementation.
+                     |                      |                          |
+`{service-name}`     | `object`             | -                        | Options can be supplied to embed services. 
+                     |                      |                          |
+`youtube.width`      | `number`             | `640`                    | Width of YouTube embed.
+`youtube.height`     | `number`             | `390`                    | Height of YouTube embed.
+                     |                      |                          |
+`vimeo.width`        | `number`             | `500`                    | Width of Vimeo embed.
+`vimeo.height`       | `number`             | `281`                    | Height of Vimeo embed.
+                     |                      |                          |
+`vine.width`         | `number`             | `600`                    | Width of Vine embed.
+`vine.height`        | `number`             | `600`                    | Height of Vine embed.
+`vine.embed`         | `string`             | `'simple'`               | Type of embed; for instance, `'simple'` or `'postcard'` (see https://dev.twitter.com/web/vine).
+                     |                      |                          |
+`prezi.width`        | `number`             | `550`                    | Width of Prezi embed.
+`prezi.height`       | `number`             | `400`                    | Height of Prezi embed.
 
 
 ## Supported Services
@@ -111,7 +111,7 @@ Custom embed services can be specifying in the options that you provide to the
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-service-youtube">
+<div class="block-embed block-embed-service-youtube">
   <iframe type="text/html"
           width="640"
           height="390"
@@ -144,7 +144,7 @@ Alternately, you could use a number of different YouTube URL formats rather than
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-service-vimeo">
+<div class="block-embed block-embed-service-vimeo">
   <iframe type="text/html"
           width="500"
           height="281"
@@ -171,7 +171,7 @@ Alternately, you could use the url instead of just the video id.
 is interpreted as
 
 ```html
-<div class="embed-responsive embed-responsive-service-vine">
+<div class="block-embed block-embed-service-vine">
   <iframe type="text/html"
           width="600"
           height="600"
@@ -199,7 +199,7 @@ Alternately, you could use the url, or even the whole embed tag instead of just 
 is interpreted as 
 
 ```html
-<div class="embed-responsive embed-responsive-service-prezi">
+<div class="block-embed block-embed-service-prezi">
   <iframe type="text/html"
           width="550"
           height="400"
