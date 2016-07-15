@@ -100,6 +100,25 @@ video-123
 .
 
 
+Coverage. Invalid extra spacing inside tag syntax (consistent with images)
+
+.
+@[
+  example
+]
+(
+  video-123
+)
+.
+<p>@[
+example
+]
+(
+video-123
+)</p>
+.
+
+
 Coverage. Trailing whitespace after embed tag \/
 .
 @[example](video-123)                                
