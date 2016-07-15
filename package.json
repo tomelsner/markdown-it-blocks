@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-video",
-  "version": "0.4.0",
-  "description": "Markdown-it plugin to embed a hosted videos",
+  "name": "markdown-it-block-embed",
+  "version": "0.0.2",
+  "description": "Plugin for markdown-it that detects and outputs block level embeds such as videos and supports custom embed services.",
   "main": "lib/index.js",
   "scripts": {
     "build-browser": "rm -rf dist && mkdir dist && browserify lib/index.js -o dist/markdown-it-video.js -t [ babelify ]",
@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brianjgeiger/markdown-it-video"
+    "url": "https://github.com/rotorz/markdown-it-block-embed"
   },
-  "author": "brianjgeiger",
+  "author": "Rotorz Limited",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brianjgeiger/markdown-it-video/issues"
