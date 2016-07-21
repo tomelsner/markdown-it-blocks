@@ -6,7 +6,7 @@
 
 Plugin for markdown-it that detects and outputs block level embeds such as videos and supports custom embed services.
 
-This project started is a fork of the [markdown-it-video](https://github.com/brianjgeiger/markdown-it-video)
+This project started as a fork of the [markdown-it-video](https://github.com/brianjgeiger/markdown-it-video)
 package but for the most part has been rewritten to behave as a block element rather than
 an inline one. Implementation of embed services were separated and additional options have
 been added to control the output of the generated embed code.
