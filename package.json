@@ -1,5 +1,5 @@
 {
-  "name": "markdown-it-block-embed",
+  "name": "markdown-it-blocks",
   "version": "0.0.3",
   "description": "Plugin for markdown-it that detects and outputs block level embeds such as videos and supports custom embed services.",
   "main": "lib/index.js",
@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rotorz/markdown-it-block-embed"
+    "url": "https://github.com/tomelsner/markdown-it-blocks"
   },
-  "author": "Rotorz Limited",
+  "author": "Tom Elsner",
   "license": "MIT",
   "keywords": [
     "markdown-it",
